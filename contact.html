@@ -1,0 +1,75 @@
+﻿<html><!-- Opening of the HTML document -->
+
+	<head><!-- Information about the webpage: title, stylesheet, and meta information -->
+		<title>Relief Gym</title>
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<meta charset="UTF-8">
+		<meta name="description" content="Gym">
+		<meta name="keywords" content="Gym, Sport, Workout, Running">
+		<meta name="author" content="Dmytro Brodar">
+	</head>
+
+	<body><!-- Content of the webpage -->
+
+		<div id="container"><!-- Container div that holds the entire webpage -->
+
+			<div id="header" title="sitename"><!-- Header section of the webpage -->
+				<h1><a href="index.html">Relief Gym</a></h1>
+			</div>
+
+			<ul id="mainnav"><!-- Main navigation menu of the webpage -->
+				<li class="limainnav"><a href="index.html">Home</a></li>
+				<li class="limainnav"><a href="membership.html">Membership</a></li>
+				<li class="limainnav"><a href="personalTraining.html">Personal Training</a></li>
+				<li class="limainnav"><a href="classes.html">Classes</a></li>
+				<li class="limainnav"><a href="contact.html">Contact Us</a></li>
+			</ul>
+		
+			<div id = "content"><!-- Main content section of the webpage -->	
+					<h2>Contact Us</h2>				
+					<h3>For queries, help and support.</h3>
+					<center>
+						<form action="mailto:dmytro.brodar@morrisonsislandcampus.com" enctype="text/plain" method=post>
+							<label for="name"><b>Name:</b></label><br>
+							<input type="text" id="contName" Name="name" size="50" maxlength="10"><br><br>
+							<label for="adress"><b>Address:</b></label><br>
+							<input type="text" id="contAddress" Name="address" size="50" maxlength="40"><br><br>
+							<label for="city"><b>City:</b></label> <br>
+							<input type="text" id="contCity" Name="city" size="50" maxlength="50"><br><br>
+						
+							<p><b>Which of the following would you like more information on:</b></p>
+							<input type="radio" name="flavour" value="Healthy food"> Healthy food
+							<input type="radio" name="flavour" value="Training in gym"> Training in gym
+							<input type="radio" name="flavour" value="Workout"> Home Workout
+							
+							<p><b>How did you hear about us?</b></p>
+							<input type="checkbox" id="aboutUs1" name="aboutUs1" value="Friends">
+							<label for="aboutUs1">Friends</label>
+							<input type="checkbox" id="aboutUs2" name="aboutUs2" value="Internet">
+							<label for="aboutUs2">Google</label>
+							<input type="checkbox" id="aboutUs3" name="aboutUs3" value="Magazines">
+							<label for="aboutUs3">Social Networks</label><br><br>
+
+							<label for="contactComment"><b>Please leave Comment or Message:</b></label><br>
+							<textarea id="contactComment" name="contactComment" rows="4" cols="50"></textarea><br>
+						
+							<input type="Submit" id="contactSubmit" value="Click">
+							<input type="Reset" id="contactSubmit" value="Reset">
+						</form>
+					</center>
+					<div class="contactInfoList"><!--Information with contact details-->
+						<h3>Contact Info</h3>
+						<ul>
+							<li><a href="https://www.google.com/maps?ll=51.921664,-8.479487&z=15&t=m&hl=en-GB&gl=IE&mapclient=embed&cid=1485376696274903805" target="_blank"> 
+								Address: Mallow Rd, Blackpool, Cork, T23 NR4R</a></li>
+							<li>Phone: +353 (0)66 11 11 111</li>
+							<li>Email: info@relief_gym.ie</li>
+						</ul>
+					</div>
+			</div><!--End of contents section-->
+				<div id="footer"><!-- Start of footer section -->
+					Copyright Dmytro Brodar &copy;
+				</div><!-- End of footer section -->
+		</div>
+	</body><!-- End content of the webpage -->
+</html><!-- End of HTML code -->
